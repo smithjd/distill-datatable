@@ -1,0 +1,44 @@
+---
+title: "Test distill datatable"
+description: |
+  testing distill details with datatable
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(DT)
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+```
+
+## demo trivial plot
+```{r}
+mtcars %>% ggplot(aes(x = mpg, y = wt)) +
+  geom_point()
+```
+## demo datatable 
+
+```{r}
+mtcars %>% 
+  select(mpg, wt) %>% 
+  datatable()
+```
+
+## demo datatable inside a details section
+
+<details>
+
+- With Safari on a Mac, you can only see the data table if you press **Option-Command-i** -- two times!
+- With Firefox on a Mac, you can only see the data table if you press **Option-Command-i** -- two times!
+- With Firefox on a PC, you can only see the data table if you press **Control-Shift-i** -- two times!
+
+```{r}
+mtcars %>% 
+  select(mpg, wt) %>% 
+  datatable()
+```
+
+</details>

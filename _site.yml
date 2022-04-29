@@ -1,0 +1,12 @@
+name: "distill-datatable"
+title: "Test distill datatable"
+description: |
+  Test distill datatable
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article

@@ -1,0 +1,11 @@
+---
+title: "About this test"
+description: |
+  Testing datatable with different browsers
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Here's [a discussion](https://community.rstudio.com/t/details-on-a-distill-site-works-on-chrome-but-not-firefox/134206/5) of the problem I've observed.
