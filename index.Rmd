@@ -14,6 +14,11 @@ library(DT)
 
 ```
 
+## This is a minimum reproducible example
+
+Here's [a discussion](https://community.rstudio.com/t/details-on-a-distill-site-works-on-chrome-but-not-firefox/134206/5) of the problem I've observed.
+
+
 ## demo trivial plot
 ```{r}
 mtcars %>% ggplot(aes(x = mpg, y = wt)) +
