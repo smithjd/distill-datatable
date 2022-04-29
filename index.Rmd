@@ -38,7 +38,7 @@ Demo datatable inside a details section
 
 <details>
 
-- Everything works **great** with Chrome
+- Everything works **great** with Chrome, don't worry.
 - With Safari on a Mac, you can only see the data table if you press **Option-Command-i** -- two times!
 - With Firefox on a Mac, you can only see the data table if you press **Option-Command-i** -- two times!
 - With Firefox on a PC, you can only see the data table if you press **Control-Shift-i** -- two times!
